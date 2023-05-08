@@ -10,7 +10,7 @@ spec:
   - name: "32000"
     port: 32000
     protocol: TCP
-    targetPort: 32000
+    targetPort: 80
   selector:
     app: guestbook-ui
   type: NodePort
