@@ -7,8 +7,9 @@ metadata:
   name: guestbook-ui
 spec:
   ports:
-  - name: "32000"
+  - name: "guestbook"
     NodePort: 32000
+    port: 32000
     protocol: TCP
     targetPort: 80
   selector:
